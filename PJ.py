@@ -1,61 +1,127 @@
 # Dictionary for different species of fish.
-fish = {'Tangs': ['Yellow','Kole', 'Blue', 'Powder Blue', 'Powder Brown', 'Naso',
+fish = {
+# Listing of Tang fish.
+'Tangs': ['Yellow','Kole', 'Blue', 'Powder Blue', 'Powder Brown', 'Naso',
 'Blonde Naso', 'Sailfin', 'Scopas', 'Clown', 'Convict', 'Achilles', 'Purple','Chevron', 'Lieutenant',
 'Yellow Belly Blue Regal', 'Blue Carribean', 'Gemmatum','Black Longnose', 'Two Spot Bristletooth', 'Orange Shoulder',
 'Square Tail Bristletooth','Whitetail Bristletooth', 'Mimic Lemon Peel', 'Vlamingii'],
-
+# Listing of Dragonets
 'Dragonets':['Green Mandarin', 'Spotted Mandarin', 'Red Mandarin', 'Scooter Blenny', 'Ruby Red Dragonet', 'Red Scooter Dragonet'],
+# Listing of Chromis fish.
 'Chromis':['Blue/Green Reef','Black Axil','Lemon','Blue Reef','Black & White','Agile','Sunshine Purple & Yellow','Webers'],
-'Clowns':[],
-'Gobies':[],
-'Angel':[],
-'Dwarf Angel':[],
-'Anglers':[],
+# Listing of Clown fish.
+'Clowns':['Mocha Black Storm','Black Storm','Latezonatus','Ocellaris','Picasso Percula','Semi Picasso','Wyoming White',
+'Davinci','MochaVinci','Wide Bar Mocha Gladiator','Clarkii','Black & White Ocellaris','Snow Onyx','Black Onyx',
+'Snowflake Ocellaris','Black Snowflake Phantom','Maine Blizzard','Flurry','Frostbite','Black Ice','Black Photon','Naked',
+'Nearly Naked','Midnight Ocellaris','Domino','Maroon','Gold Nugget','Gold Dot','Lightning Maroon','Thunder Maroon',
+'Yellowstripe Maroon','Cinnamon','Spotcinctus','Pink Skunk','Red Saddle','Tomato','Fiji Barberi','Galaxy Clarkii',
+'Pearl Eye Clarkii','Two Banded','Saddleback'],
+# Listing of Gobies
+'Gobies':['Yello Prawn','Court Jester','Diamond Watchman','Pink Spotted','Tiger Watchman','Hi Fin Red Banded','Sleeper Banded',
+'Sleeper Blue Dot','Sleeper Gold Head','Yellow Clown','Green Clown','Black Clown','Wheelers Shrimp','Bella','Flagtail Shrimp',
+'Bluespotted Watchman','Greenbanded','Sleeper Railway Glider','Sleeper Striped','Citrinis Clown','Red Neon Eviota',
+'Yasha White Ray Shrimp','Wide-barred Shrimp','Orange Stripe Prawn','Neon Blue','Gold Neon Eviota','Two Spot',
+'Orange Spotted','Engineer','Hectors','Pinkbar','Red Head','Cave Transparent','Steinitz','Orangemarked','Tangaroa',
+'Panda','Masked','Black Barred Convict','Yellow Priolepis','Dracula','Decorated','Broadstripe'],
+# Listing of Angel fish.
+'Angel':['Asfur','Blue Girdled','Blueline','Goldflake','Regal','Bellus','Scribbled','Passer','Koran','Emperor','Queen',
+'Blueface','Annularis','French','Rock Beauty','Spotbreast','Lamarcks','Watanabei','Singapore','Gray','Xanthurus Cream',
+'Flagfin','False Personifer','Chrysurus','Maculosus','Cortez','Zebra Lyretail'],
+# Listing of Dwarf Angel fish.
+'Dwarf Angel':['Flame','Coral Beauty','Yellow','Tibicen','Joculator','True Shepards','Bicolor','Lemonpeel','Yellowfin',
+'Flameback','Collins','Potters','Red Stripe','Rusty','Half Black','Bluefin','Pygmy','Black Nox','Multicolor','Golden'],
+# Listing of Angler fish.
+'Anglers':['Assorted','Wartskin','Red/Orange','Sargassum'],
+# Listing of Anthias fish.
 'Anthias':[],
+# Listing of Basslets fish.
 'Basslets':[],
+# Listing of Blenny fish.
 'Blennies':[],
+# Listing of Butterfly fish.
 'Butterfly':[],
+# Listing of Boxfish.
 'Boxfish':[],
+# Listing of Cardinal fish.
 'Cardinal':[],
+# Listing of Damsel fish.
 'Damsel':[],
+# Listing of Dottyback fish.
 'Dottyback':[],
+# Listing of Hawkfish.
 'Hawkfish':[],
+# Listing of Reef Safe Wrasse fish.
 'Wrasse Reef Safe':[],
+# Listing of Wrasse fish.
 'Wrasse Fish Only':[],
+# Listing of Dartfish.
 'Dartfish':[],
+# Listing of Puffers.
 'Puffers':[],
+# Listing of Lionfish.
 'Lionfish':[],
+# Listing of Rays.
 'Rays':[],
+# Listing of Eels.
 'Eels':[],
+# Listing of Foxface & Rabbit fish.
 'Foxface & Rabbit':[],
+# Listing of Filefish.
 'Filefish':[],
+# Listing of Groupers.
 'Groupers':[],
+# Listing of Hogfish.
 'Hogfish':[],
+# Listing of Jawfish.
 'Jawfish':[],
         }
 # Dictionary for different species of coral.
 coral = {'LPS':[],'SPS':[],'Soft':[],'Mushrooms':[],'Polyp':[],}
+
 # Dictionary for different species of invertebrates.
-inverts = {'Anemones':['Bulb','Long Tentacle','Ritteri','Sebae','Haddons Green Carpet','Condy','Haitian Reef','Tube',
-'Long Purple Tentacle','True Tan Carpet','Mini Carpet','Rose Bulb'],'Crabs':['Dwarf Red Tip Hermit','Dwarf Blue Leg Hermit',
+inverts = {
+# Listing of Anemones.
+'Anemones':['Bulb','Long Tentacle','Ritteri','Sebae','Haddons Green Carpet','Condy','Haitian Reef','Tube',
+'Long Purple Tentacle','True Tan Carpet','Mini Carpet','Rose Bulb'],
+# Listing of Crabs.
+'Crabs':['Dwarf Red Tip Hermit','Dwarf Blue Leg Hermit',
 'Scarlet Reef Hermit','Dwarf Yellow Tip Hermit','Dwarf Zebra/Orange & Black Hermit','Emerald','Arrow','Decorator Arrow',
 'Panamic','Electric Blue Hermit','Electric Orange Hermit','Halloween Hermit','Hermit w/ Anemone','Pom Pom','Sally Lightfoot',
-'Spider Decorator','Trapezia Acropora','Staghorn'],'Cucumbers':['Sea Tiger Tail','Sea','Sea Yellow',
-'Spiny Green w/Pink & Yellow'],'Fan Worms':['Hawaiian Feather Duster','Dwarf Colored Feather Duster','Feather Duster',
-'Hard Tube Coco','Christams Tree on Rock'],'Lobsters':['Daums Reef','Debelius Reef'],'Shrimp':['Scarlet Skunk Cleaner',
+'Spider Decorator','Trapezia Acropora','Staghorn'],
+# Listing of Sea Cucumbers.
+'Cucumbers':['Sea Tiger Tail','Sea','Sea Yellow','Spiny Green w/Pink & Yellow'],
+# Listing of Fan Worms.
+'Fan Worms':['Hawaiian Feather Duster','Dwarf Colored Feather Duster','Feather Duster',
+'Hard Tube Coco','Christams Tree on Rock'],
+# Listing of Lobsters.
+'Lobsters':['Daums Reef','Debelius Reef'],
+# Listing of Shrimp.
+'Shrimp':['Scarlet Skunk Cleaner',
 'Peppermint','Blood Red Fire','Sexy Anemone','Banded Coral','Camel','Curly-Que','Yellow Banded Coral','Saron',
-'White Spot Anemone','Harequin','Blue Banded Coral','Bumble Bee','Red Banded Snapping','Gold Banded Coral','Pederson Cleaner',
-'Venus Anemone','Yellow Line'],'Sea Stars':['Burgundy Sea','Red Sea','Orange/Red Tile Sea','Indian Sea','Fancy Yellow Brittle Sea',
+'White Spot Anemone','Harlequin','Blue Banded Coral','Bumble Bee','Red Banded Snapping','Gold Banded Coral','Pederson Cleaner',
+'Venus Anemone','Yellow Line'],
+# Listing of Sea Stars.
+'Sea Stars':['Burgundy Sea','Red Sea','Orange/Red Tile Sea','Indian Sea','Fancy Yellow Brittle Sea',
 'Red Brittle Sea','Fancy Brittle Sea','Banded Brittle Sea','Fancy Tiger Striped Serpent Sea','Fancy Banded Serpent Sea',
 'Fancy Red Brittle Sea','Knobby Fancy Brittle Sea','Red Knob Sea','Chocolate Chip Sea','Linckia Sea','Sand Sifting Sea'],
-'Sea Slugs':['Blue Velvet Nudibranch','Green Lettus Sea','Sea Hare'],'Snails':['Astaea Turbo','Banded Trochus','Cerith',
+# Listing of Sea Slugs.
+'Sea Slugs':['Blue Velvet Nudibranch','Green Lettus Sea','Sea Hare'],
+# Listing of Snails.
+'Snails':['Astaea Turbo','Banded Trochus','Cerith',
 'Margarita','Super Tongan Nassarius','Zebra Turbo','Abalone','Bumble Bee','Nerite','Spiny Star Astraea','Tiger Cowrie',
-'Fighting Conch','Mexican Turbo','Nassarius','Turban','Chestnut Turbo','Chestnut Cowrie'],'Urchins':['Blue Tuxedo','Pincushion',
-'Black Longspine','Hairy Pincushion','Pencil','Banded Longspine','Blue Spot Longspine','Purple Shortspine Pincushion',
-'Red Tuxedo','Shortspine'],'Sponges':['Red Ball','Tree','Yellow Ball'],'Clams':['Maxima','Maxima Ultra',
-'Striped with Blue Rim Derasa','Gold Maxima','Blue/Turquoise Maxima','Crocea','Blue Squamosa'],
-'Cephalopods':['Atlantic Pygmy Octopus','Octopus-Assorted'],'Plants & Algae':['Red Mangrove','Red Gracilaria Feeding',
-'Dragons Tongue','Shaving Brush','Mermaids Fan','Halimeda','Green Finger','Chaeto','Caulerpa'],
+'Fighting Conch','Mexican Turbo','Nassarius','Turban','Chestnut Turbo','Chestnut Cowrie'],
+# Listing of Urchins.
+'Urchins':['Blue Tuxedo','Pincushion','Black Longspine','Hairy Pincushion','Pencil','Banded Longspine',
+'Blue Spot Longspine','Purple Shortspine Pincushion','Red Tuxedo','Shortspine'],
+# Listing of Sponges.
+'Sponges':['Red Ball','Tree','Yellow Ball'],'Clams':['Maxima','Maxima Ultra','Striped with Blue Rim Derasa','Gold Maxima',
+'Blue/Turquoise Maxima','Crocea','Blue Squamosa'],
+# Listing of Cephalopods.
+'Cephalopods':['Atlantic Pygmy Octopus','Octopus-Assorted'],
+# Listing of Plants & Macro Algae.
+'Plants & Algae':['Red Mangrove','Red Gracilaria Feeding','Dragons Tongue','Shaving Brush','Mermaids Fan','Halimeda',
+'Green Finger','Chaeto','Caulerpa'],
+# Listing of Scallops.
 'Scallops':['Electric Flame']}
 
 
