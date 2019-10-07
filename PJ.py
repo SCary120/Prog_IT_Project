@@ -33,15 +33,21 @@ fish = {
 # Listing of Angler fish.
 'Anglers':['Assorted','Wartskin','Red/Orange','Sargassum'],
 # Listing of Anthias fish.
-'Anthias':[],
+'Anthias':['Dispar','Bartlett','Lyretail','Indian Ocean Lyretail','Carberryi','Stocky','Evansi','Sunset','Pictilis','Ignitus',
+'Squareback','Resplendent','Randalls','Huchtii','Red Belted','Bimaculatus','Fathead Sunburst','Red Saddled','Princess',
+'Waitei','Loris','Red Fairy','Bali Lunate','Red-Bar'],
 # Listing of Basslets fish.
-'Basslets':[],
+'Basslets':['Royal Gramma','Chalk Bass','Lantern Bass','Tobacco','Harlequin','Black Cap','Gold Assessor'],
 # Listing of Blenny fish.
-'Blennies':[],
+'Blennies':['Sailfin/Algae','Bicolor','Midas','Tail Spot','Linear','Two Spot','Black Sailfin','Starry','Black Combtooth',
+'Canary','Green Canary','Forktail','Yellow Eye Combtooth','Segmented Sailfin','One Spot','Striped','White','Harptail',
+'Black-Lined','Ember','Bundoon','Brachiosaurus','Eyebrow'],
 # Listing of Butterfly fish.
-'Butterfly':[],
+'Butterfly':['Auriga','Four Eyed','Pakistan','Declivis','Saddleback','Falcula','Raccoon','Orange','Mertensii','Spotfin',
+'Sunset','Latticed','Banded','Tahitian','Double Saddle','Tear Drop','Vagabond','Pearlscale','Copperband','Yellow Longnose',
+'Zoster','Heniochus','Red Sea','Singular','Hi Fin Coradion','Indian Vegabond','Yellowhead'],
 # Listing of Boxfish.
-'Boxfish':[],
+'Boxfish':['Longhorn Cowfish','Cubicus'],
 # Listing of Cardinal fish.
 'Cardinal':[],
 # Listing of Damsel fish.
