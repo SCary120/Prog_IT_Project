@@ -49,9 +49,10 @@ fish = {
 # Listing of Boxfish.
 'Boxfish':['Longhorn Cowfish','Cubicus'],
 # Listing of Cardinal fish.
-'Cardinal':[],
+'Cardinal':['Pajama','Red Belted','Longspine','Yellowstriped','Flame','Fowleria','Ochrestriped','Five Lined','Yellow','Bangai'],
 # Listing of Damsel fish.
-'Damsel':[],
+'Damsel':['Ambon','Yellowtail','Azure','Blue','Blue Sapphire','Three Spot Domino','Four Stripe','Three Stripe',
+'Fiji Blue Devil','Two Stripe','Blue and Gold','Talbots','Blue Velvet','Pink Smith','Neon','Rollands','Regal','Similar','Traceys'],
 # Listing of Dottyback fish.
 'Dottyback':[],
 # Listing of Hawkfish.
