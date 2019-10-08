@@ -54,33 +54,45 @@ fish = {
 'Damsel':['Ambon','Yellowtail','Azure','Blue','Blue Sapphire','Three Spot Domino','Four Stripe','Three Stripe',
 'Fiji Blue Devil','Two Stripe','Blue and Gold','Talbots','Blue Velvet','Pink Smith','Neon','Rollands','Regal','Similar','Traceys'],
 # Listing of Dottyback fish.
-'Dottyback':[],
+'Dottyback':['Pruple','Purple Stripe','Bicolor','Splendid','Whitetail','Ring Eyed','Yellow','Red Spotted','Neon','Springeri',
+'Double Striped','Blue Eye Royal','Orangetail','Red Elongated','Black Neon','Splendid'],
 # Listing of Hawkfish.
-'Hawkfish':[],
+'Hawkfish':['Falco','Flame','Pixy/Spotted','Longnose','Arc Eye','Freckled','Red','Blood Red'],
 # Listing of Reef Safe Wrasse fish.
-'Wrasse Reef Safe':[],
+'Wrasse Reef Safe':['Darwins Glow','Magma Fairy','Splendid Pintail','Katherines Fairy','Lunate Fairy','Ornate Leopard',
+'Blue Throat','Naokos Fairy','Rose-Band Fairy','Red-Fin Fairy','Redfin','Leopard','Black Leopard','Four Line','Six Line',
+'Hooded Fairy','Orange-Back Fairy','Ruby Head Fairy','Scotts Fairy','Bluehead Fairy','Exquisite Fairy','Whip Fin Fairy',
+'Yellow Fin Fairy','Johnsons Fairy','Flame Fairy','Labouts Fairy','Lineatus Fairy','Multicolor Lubbocks Fairy',
+'Yellow-Flanked Fairy','Fine Spotted Fairy','Golden Rhomboidalis','Pink Margin Fairy','Red Velvet Fairy','Red Head Solon Fairy',
+'Pearly Wrasse','Bluestreak Cleaner','Ruby Longfin Fairy','McCoskers Flasher','Carpenters Flasher','Yellowfin Flasher',
+'Blue Flasher','Linespot Flahser','Filamented Flasher','Mystery','Yellowband','Pink-Streaked','Scarlet Pin Stripe','Eight Lined'],
 # Listing of Wrasse fish.
-'Wrasse Fish Only':[],
+'Wrasse Fish Only':['Harlequin Tusk','Yellow','Yellow & Purple','Green','Red Coris','Formosa','Melanurus','Radiant',
+'Christmas','Vroliks','Marble/Hortulanus','Grey Head','Adorned','Lyretail','Bluehead','Banana','Bird','Dragon',
+'Hardwicke','Paddlefin','Pinkface','Neon','Goldbar','Blunthead','Red Breast','Black-backed','Red-Lined','Two Spot','Dusky',
+'Two Tone','Richmonds','Jansen Saddle','Sea Grass','Redtail Hawaii'],
 # Listing of Dartfish.
-'Dartfish':[],
+'Dartfish':['Firefish','Purple Firefish','Scissortail','Zebra Barred','Blue Gudgeon','Exquisite Firefish','Helfrichi Firefish'],
 # Listing of Puffers.
-'Puffers':[],
+'Puffers':['Saddle Valentini','Porcupine','Arothron','Arothron Dog Face','Saddle','Scribbled Arothron','Spiny Box',
+'Blue Spotted','Spotted','Central American Sharpnose','Leopard','Bennetts Sharpnose','Immaculatus','Narrow-Lined',
+'Stars & Stripes','Reticulated'],
 # Listing of Lionfish.
-'Lionfish':[],
-# Listing of Rays.
-'Rays':[],
+'Lionfish':['Dwarf/Zebra','Fuzzy Dwarf','Colored Volitan','Miles','Antennata','Radiata','Russells','Mombasa'],
 # Listing of Eels.
-'Eels':[],
+'Eels':['Golden Dwarf Moray','Snowflake','Tessalata','Wolf','Zebra Moray','Golden Banana Moray','Black Edge Moray',
+'Jeweled Moray','Japanese Dragon','Yellow-Edged'],
 # Listing of Foxface & Rabbit fish.
-'Foxface & Rabbit':[],
+'Foxface & Rabbit':['Foxface Lo','One Spot Foxface','Magnificent Foxface','Yellow Blotch Rabbit','Blue Spotted Rabbit',
+'Two Barred Rabbit','Decorated Rabbit','Gold Spotted Rabbit','Bicolor Fox'],
 # Listing of Filefish.
-'Filefish':[],
+'Filefish':['Aiptasia Eating','Tassle'],
 # Listing of Groupers.
-'Groupers':[],
+'Groupers':['Blue Line','Miniatus','Pollenei'],
 # Listing of Hogfish.
-'Hogfish':[],
+'Hogfish':['Yellow Candy','Spanish','Axilspot','Red Diana','Coral'],
 # Listing of Jawfish.
-'Jawfish':[],
+'Jawfish':['Blue Dot','Yellowhead','Black Cap','Chinstrap'],
         }
 # Dictionary for different species of coral.
 coral = {'LPS':[],'SPS':[],'Soft':[],'Mushrooms':[],'Polyp':[],}
