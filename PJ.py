@@ -95,7 +95,22 @@ fish = {
 'Jawfish':['Blue Dot','Yellowhead','Black Cap','Chinstrap'],
         }
 # Dictionary for different species of coral.
-coral = {'LPS':[],'SPS':[],'Soft':[],'Mushrooms':[],'Polyp':[],}
+coral = {
+# Listing of LPS coral.
+'LPS':[],
+# Listing of SPS coral.    
+'SPS':['Bright Color Tongan Acropora','Bright Color Aussie Acropora','Purple Tipped Secale Acropora',
+'Birdsnest Coral','Smooth Encrusting Montipora','Maldivensis Pavona Coral','Montipora Coral Dimpled Encrusting',
+'Yellow Porites Coral','Stylophora','Cauliflower Pocilopora','Bushy Purple/Blue Acropora','Bushy Green Acropora',
+'Branching Green Acropora','Branching Blue Acropora','Tabling Pink/Red Acropora','Tabling Green Acropora',
+'Millepora Acropora','Blue Ridge','Fluorescent Horn','Encrusting Horn','Branched Montipora','Pavona','Pachyseris',
+'Pavona Maldivensis'],
+# Listing of Soft coral
+'Soft':[],
+# Listing of mushroom coral. 
+'Mushrooms':[],
+# Listing of Polyp coral 
+'Polyp':[],}
 
 # Dictionary for different species of invertebrates.
 inverts = {
