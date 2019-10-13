@@ -159,6 +159,18 @@ inverts = {
 'Scallops':['Electric Flame']}
 
 
+
+choice = input("Select a fish:")
+if choice in fish.keys():
+    for name, type in fish.items():
+        print("\n" +name.title() + ", is the fish you selected:")
+        for breed in type:
+            print("\t" + breed.title())
+else:
+    print("Does not exist")
+
+
+
 print("What type of fish do you want to view?")
 name = input()
 
