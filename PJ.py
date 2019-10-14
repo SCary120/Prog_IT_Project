@@ -97,20 +97,30 @@ fish = {
 # Dictionary for different species of coral.
 coral = {
 # Listing of LPS coral.
-'LPS':[],
-# Listing of SPS coral.    
-'SPS':['Bright Color Tongan Acropora','Bright Color Aussie Acropora','Purple Tipped Secale Acropora',
-'Birdsnest Coral','Smooth Encrusting Montipora','Maldivensis Pavona Coral','Montipora Coral Dimpled Encrusting',
-'Yellow Porites Coral','Stylophora','Cauliflower Pocilopora','Bushy Purple/Blue Acropora','Bushy Green Acropora',
-'Branching Green Acropora','Branching Blue Acropora','Tabling Pink/Red Acropora','Tabling Green Acropora',
-'Millepora Acropora','Blue Ridge','Fluorescent Horn','Encrusting Horn','Branched Montipora','Pavona','Pachyseris',
-'Pavona Maldivensis'],
+'LPS':['Lobophyllia sp.','Homophyllia australis','Acanthophyllia desshayesiana','Plesiastrea versipora',
+'Trachyphyllia geoffroyi','Favia sp','Plerogyra sinuosa','Favia speciosa','Favites spp.','Lobophyllia hemprichii',
+'Platygyra sp.','Acanthastrea echinata','Micromussa lordhowensis','Goniastrea sp.','Fungia repanda','Fungia sp',
+'Blastomussa merletti','Catalaphyllia jardinei','Caulastrea furcata','Echinophyllia sp.','Echinophyllia aspera',
+'Duncanopsammia axifuga','Euphyllia ancora','Euphyllia glabrescens','Euphyllia divisa','Cynarina lacrymalis',
+'Parascolymia vitiensis','Gonipora sp.','Galaxea spp.','Balanophyllia sp.','Favites pentagona','Merulina ampliata',
+'Physogyra sp.','Tubastrea micrantha','Turbina sp.','Euphyllia cristata','Homophyllia bowerbanki','Euphyllia parancora',
+'Turbinaria peltata','Blastomussa wellsi','Polyphyllia sp.','Caulastrea echinulata','Tubastrea sp.','Tubastrea aurea',
+'Euphyllia yaeyamaensis','Diploastrea heliopora','Trachyphyllia radiata','Mycedium sp.','Caulastrea curvata',
+'Pectinia sp.','Heliofungia actinifomis','Turbinaria sp.','Alveopora sp.'],
+# Listing of SPS coral.
+'SPS':['Acropora sp.','Montipora nodosa','Pavona maldivensis','Montipora verrucosa','Seriatopra hystrix','Porites spp.',
+'Stylophora spp.','Pocillopora damicornis','Acropora millepora','Heliopora coerulea','Hydophora sp.','Hydnophora exesa',
+'Montipora digitata','Montipora capricornis','Pavona decussatus','Pachyseris sp.'],
 # Listing of Soft coral
-'Soft':[],
-# Listing of mushroom coral. 
-'Mushrooms':[],
-# Listing of Polyp coral 
-'Polyp':[],}
+'Soft':['Sinularia sp.','Sarcophyton sp.','Lobophytum sp.','Rhodactis sp.','Tubipora musica','Sympodium sp.',
+'Sarcophyton sp.','Sarcophyton elegans','Capnella sp.','Paralemnalia sp.','Sinularia brassica','Sinularia flexibilis',
+'Sphaerella sp.','Heliopora coerulea','Stereonephthya sp.','Nephthyigorgia sp.','Dendronephthya sp.','Clavularia sp.',
+'Briareum sp.','Xenia sp.','Knopia sp.','Litophyton sp.'],
+# Listing of mushroom coral.
+'Mushrooms':['Actinodiscus sp.','Rhodactis inchoata','Rhodactis sp.','Rhodactis indosinensis','Ricordea yuma'],
+# Listing of Polyp coral
+'Polyp':['Zoanthus sp.','Tubipora musica','Sympodium sp.','Undescribed Zoanthid','Xenia sp.','Knopia sp.',
+'Clavularia sp.','Briareum sp.'],}
 
 # Dictionary for different species of invertebrates.
 inverts = {
