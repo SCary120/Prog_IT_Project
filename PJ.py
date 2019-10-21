@@ -203,7 +203,21 @@ for name, types in fish.items():
 #    print("\t" + Tangs)
 
 
-#zoo = ['lion', "elephant", 'monkey']
+# Declare variables for water parameters.
+Salinity = input("Enter Salinity Level:")
+Temp = input("Enter water temperature")
+Nitrate = input("Enter Nitrate Level:")
+Nitrite = input("Enter Nitrite Level:")
+Calcium = input("Enter Calcium Level:")
+PH = input("Enter PH Level:")
+Ammonia = input("Enter Ammonia Level:")
+Phosphate = input("Enter Phospate Level:")
+Alkalinity = input("Enter Alkalinity Level:")
+Mag = input("Enter Magnesium Level:")
+
+# Export inputs into excel spreadsheet.
+
+#fish = ["tangs", "dragonets", "angel"]
 
 #if __name__ == "__main__":
 #    f = open("Steves_Reef.xls", 'a')
@@ -212,3 +226,4 @@ for name, types in fish.items():
 #        f.write(i)
 
  #   f.close()
+
