@@ -201,9 +201,9 @@ for name, types in fish.items():
 #for Tangs in fish['Tangs']:
 #    fish['Tangs'].sort()
 #    print("\t" + Tangs)
-
-
-# Declare variables for water parameters.
+      
+        
+# Declare variables to be used for water parameters.
 Temperature = input("Enter Water Temperature:")
 Salinity = input("Enter Salinity Level:")
 PH_Balance = input("Enter PH Level:")
@@ -211,10 +211,35 @@ Nitrate = input("Enter Nitrate Level:")
 Nitrite = input("Enter Nitrite Level:")
 Ammonia = input("Enter Ammonia Level:")
 Calcium = input("Enter Calcium Level:")
-Phosphate = input("Enter Phospate Level:")
+Phosphate = input("Enter Phosphate Level:")
 Alkalinity = input("Enter Alkalinity Level:")
 Magnesium = input("Enter Magnesium Level:")
 Water_Change = input("Enter Yes or No")
+
+
+# import the excel writer module
+import xlsxwriter
+
+#create workbook that will be used to store and track water parameters.
+workbook = xlsxwriter.Workbook('C:/Users/scary/Documents/Steves_Reef.xls')
+#add a new work sheet each time water paramters are stored.
+worksheet = workbook.add_worksheet()
+
+# specify the starting point for writing in worksheet.
+row = 0
+column = 0
+
+#Create list for Water Parameters
+Parameters = ["Temperature", "Salinity", "PH_Balance", "Nitrate", "Nitrite", "Ammonia", "Calcium", "Phosphate",
+ "Alkalinity", "Magnesium", "Water_Change"]
+# write each item in parameters to top of spread sheet, moving 1 column to the right each time.
+for item in Parameters :
+    worksheet.write(row,column, item)
+    column += 1
+
+workbook.close
+
+
 
 # Export inputs into excel spreadsheet.
 
