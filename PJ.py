@@ -241,17 +241,26 @@ workbook.close
 
 
 
-# Export inputs into excel spreadsheet.
+# Create function for Water Parameters
+def Parameters_input():
+    Temperature = input("Enter Water Temperature:")
+    Salinity = input("Enter Salinity Level:")
+    PH_Balance = input("Enter PH Level:")
+    Nitrate = input("Enter Nitrate Level:")
+    Nitrite = input("Enter Nitrite Level:")
+    Ammonia = input("Enter Ammonia Level:")
+    Calcium = input("Enter Calcium Level:")
+    Phosphate = input("Enter Phosphate Level:")
+    Alkalinity = input("Enter Alkalinity Level:")
+    Magnesium = input("Enter Magnesium Level:")
+    Water_Change = input("Enter Yes or No:")
+    return Temperature, Salinity, PH_Balance, Nitrate, Nitrite, Ammonia, Calcium, Phosphate, Alkalinity, Magnesium, Water_Change
+# Create empty list that will be used to store user input values for each water parameter.
+Parameters = []
+Parameters.append(Parameters_input())
 
-#Create list for Water Parameters
-#Parameters = ["Temperature", "Salinity", "PH_Balance", "Nitrate", "Nitrite", "Ammonia", "Calcium", "Phosphate",
-# "Alkalinity", "Magnesium", "Water_Change"]
-
-#If statement to write variables to excel spreadsheet.
-#if __name__ == "__main__":
-#    f = open("Steves_Reef.xls", 'a')
-
-#    for i in parameters:
-#        f.write(i)
-
- #   f.close()
+print(Parameters)
+# Write the Parameters list to csv file.
+f = open("steve.csv", 'w')
+for item in Parameters:
+    f.write(str(item) + "\n")
