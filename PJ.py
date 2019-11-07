@@ -4,40 +4,31 @@ fish = {"Tangs": {"1":"Yellow", "2":"Kole", "3":"Blue", "4":"Powder Blue", "5":"
 "15":"Lieutenant","16":"Yellow Belly Blue Regal", "17":"Blue Carribean", "18":"Gemmatum","19":"Black Longnose", "20":"Two Spot Bristletooth",
 "21":"Orange Shoulder","22":"Square Tail Bristletooth","23":"Whitetail Bristletooth", "24":"Mimic Lemon Peel", "25":"Vlamingii"},
 "Dragonets":{"1":"Green Mandarin", "2":"Spotted Mandarin", "3":"Red Mandarin", "4":"Scooter Blenny", "5":"Ruby Red Dragonet", 
-"6":"Red Scooter Dragonet"}}
+"6":"Red Scooter Dragonet"}"Chromis":{"1":"Blue/Green Reef","2":"Black Axil","3":"Lemon","4":"Blue Reef","5":"Black & White","6":"Agile","7":"Sunshine Purple & Yellow","8":"Webers"},
+"Clowns":{"1":"Mocha Black Storm","2":"Black Storm","3":"Latezonatus","4":"Ocellaris","5":"Picasso Percula","6":"Semi Picasso","7":"Wyoming White",
+"8":"Davinci","9":"MochaVinci","10":"Wide Bar Mocha Gladiator","11":"Clarkii","12":"Black & White Ocellaris","13":"Snow Onyx","14":"Black Onyx",
+"15":"Snowflake Ocellaris","16":"Black Snowflake Phantom","17":"Maine Blizzard","18":"Flurry","19":"Frostbite","20":"Black Ice","21":"Black Photon",
+"22":"Naked","23":"Nearly Naked","24":"Midnight Ocellaris","25":"Domino","26":"Maroon","27":"Gold Nugget","28":"Gold Dot","29":"Lightning Maroon",
+"30":"Thunder Maroon","31":"YellowstripeMaroon","32":"Cinnamon","33":"Spotcinctus","34":"Pink Skunk","35":"Red Saddle","36":"Tomato","37":"Fiji Barberi",
+"38":"Galaxy Clarkii","39":"Pearl Eye Clarkii","40":"Two Banded","41":"Saddleback"},"Gobies":{"1":"Yello Prawn","2":"Court Jester","3":"Diamond Watchman",
+"4":"Pink Spotted","5":"Tiger Watchman","6":"Hi Fin Red Banded","7":"Sleeper Banded","8":"Sleeper Blue Dot","9":"Sleeper Gold Head","10":"Yellow Clown",
+"11":"Green Clown","12":"Black Clown","13":"Wheelers Shrimp","14":"Bella","15":"Flagtail Shrimp","16":"Bluespotted Watchman","17":"Greenbanded",
+"18":"Sleeper Railway Glider","19":"Sleeper Striped","20":"Citrinis Clown","21":"Red Neon Eviota","22":"Yasha White Ray Shrimp","23":"Wide-barred Shrimp",
+"24":"Orange Stripe Prawn","25":"Neon Blue","26":"Gold Neon Eviota","27":"Two Spot","28":"Orange Spotted","29":"Engineer","30":"Hectors","31":"Pinkbar",
+"32":"Red Head","33":"Cave Transparent","34":"Steinitz","35":"Orangemarked","36":"Tangaroa","37":"Panda","38":"Masked","39":"Black Barred Convict",
+"40":"Yellow Priolepis","41":"Dracula","42":"Decorated","43":"Broadstripe"},"Angel":{"1":"Asfur","2":"Blue Girdled","3":"Blueline","4":"Goldflake",
+"5":"Regal","6":"Bellus","7":"Scribbled","8":"Passer","9":"Koran","10":"Emperor","11":"Queen","12":"Blueface","13":"Annularis","14":"French","15":"Rock Beauty",
+"16":"Spotbreast","17":"Lamarcks","18":"Watanabei","19":"Singapore","20":"Gray","21":"Xanthurus Cream","22":"Flagfin","23":"False Personifer","24":"Chrysurus",
+"25":"Maculosus","26":"Cortez","27":"Zebra Lyretail"},"Dwarf Angel":{"1":"Flame","2":"Coral Beauty","3":"Yellow","4":"Tibicen","5":"Joculator",
+"6":"True Shepards","7":"Bicolor","8":"Lemonpeel","9":"Yellowfin","10":"Flameback","11":"Collins","12":"Potters","13":"Red Stripe","14":"Rusty",
+"15":"Half Black","16":"Bluefin","17":"Pygmy","18":"Black Nox","19":"Multicolor","20":"Golden"},"Anglers":{"1":"Assorted","2":"Wartskin","3":"Red/Orange",
+"4":"Sargassum"}, "Anthias":{"1":"Dispar","2":"Bartlett","3":"Lyretail","4":"Indian Ocean Lyretail","5":"Carberryi","6":"Stocky","7":"Evansi","8":"Sunset",
+"9":"Pictilis","10":"Ignitus","11":"Squareback","12":"Resplendent","13":"Randalls","14":"Huchtii","15":"Red Belted","16":"Bimaculatus","17":"Fathead Sunburst",
+"18":"Red Saddled","19":"Princess","20":"Waitei","21":"Loris","22":"Red Fairy","23":"Bali Lunate","24":"Red-Bar"}, "Basslets":{"1":"Royal Gramma",
+"2":"Chalk Bass","3":"Lantern Bass","4":"Tobacco","5":"Harlequin","6":"Black Cap","7":"Gold Assessor"},}
 
 
-# Dictionary of Chromis fish.
-"Chromis":{"Blue/Green Reef","Black Axil","Lemon","Blue Reef","Black & White","Agile","Sunshine Purple & Yellow","Webers"},
-# Dictionary of Clown fish.
-"Clowns":{"Mocha Black Storm","Black Storm","Latezonatus","Ocellaris","Picasso Percula","Semi Picasso","Wyoming White",
-"Davinci","MochaVinci","Wide Bar Mocha Gladiator","Clarkii","Black & White Ocellaris","Snow Onyx","Black Onyx",
-"Snowflake Ocellaris","Black Snowflake Phantom","Maine Blizzard","Flurry","Frostbite","Black Ice","Black Photon","Naked",
-"Nearly Naked","Midnight Ocellaris","Domino","Maroon","Gold Nugget","Gold Dot","Lightning Maroon","Thunder Maroon",
-"Yellowstripe Maroon","Cinnamon","Spotcinctus","Pink Skunk","Red Saddle","Tomato","Fiji Barberi","Galaxy Clarkii",
-"Pearl Eye Clarkii","Two Banded","Saddleback"},
-# Dictionary of Gobies
-"Gobies":{"Yello Prawn","Court Jester","Diamond Watchman","Pink Spotted","Tiger Watchman","Hi Fin Red Banded","Sleeper Banded",
-"Sleeper Blue Dot","Sleeper Gold Head","Yellow Clown","Green Clown","Black Clown","Wheelers Shrimp","Bella","Flagtail Shrimp",
-"Bluespotted Watchman","Greenbanded","Sleeper Railway Glider","Sleeper Striped","Citrinis Clown","Red Neon Eviota",
-"Yasha White Ray Shrimp","Wide-barred Shrimp","Orange Stripe Prawn","Neon Blue","Gold Neon Eviota","Two Spot",
-"Orange Spotted","Engineer","Hectors","Pinkbar","Red Head","Cave Transparent","Steinitz","Orangemarked","Tangaroa",
-"Panda","Masked","Black Barred Convict","Yellow Priolepis","Dracula","Decorated","Broadstripe"},
-# Dictionary of Angel fish.
-"Angel":{"Asfur","Blue Girdled","Blueline","Goldflake","Regal","Bellus","Scribbled","Passer","Koran","Emperor","Queen",
-"Blueface","Annularis","French","Rock Beauty","Spotbreast","Lamarcks","Watanabei","Singapore","Gray","Xanthurus Cream",
-"Flagfin","False Personifer","Chrysurus","Maculosus","Cortez","Zebra Lyretail"},
-# Dictionary of Dwarf Angel fish.
-"Dwarf Angel":{"Flame","Coral Beauty","Yellow","Tibicen","Joculator","True Shepards","Bicolor","Lemonpeel","Yellowfin",
-"Flameback","Collins","Potters","Red Stripe","Rusty","Half Black","Bluefin","Pygmy","Black Nox","Multicolor","Golden"},
-# Dictionary of Angler fish.
-"Anglers":{"Assorted","Wartskin","Red/Orange","Sargassum"},
-# Dictionary of Anthias fish.
-"Anthias":{"Dispar","Bartlett","Lyretail","Indian Ocean Lyretail","Carberryi","Stocky","Evansi","Sunset","Pictilis","Ignitus",
-"Squareback","Resplendent","Randalls","Huchtii","Red Belted","Bimaculatus","Fathead Sunburst","Red Saddled","Princess",
-"Waitei","Loris","Red Fairy","Bali Lunate","Red-Bar"},
-# Dictionary of Basslets fish.
-"Basslets":{"Royal Gramma","Chalk Bass","Lantern Bass","Tobacco","Harlequin","Black Cap","Gold Assessor"},
+
 # Dictionary of Blenny fish.
 "Blennies":{"Sailfin/Algae","Bicolor","Midas","Tail Spot","Linear","Two Spot","Black Sailfin","Starry","Black Combtooth",
 "Canary","Green Canary","Forktail","Yellow Eye Combtooth","Segmented Sailfin","One Spot","Striped","White","Harptail",
@@ -171,11 +162,32 @@ inverts = {
 
 
 # conditional statement to print item from dictionary from user input.
-choice=input("Select a fish:")
-if choice in fish:
-    print(choice)
-else:
-    print("Not Found")
+#choice=input("Select a fish:")
+#if choice in fish:
+#    print(choice)
+#else:
+#    print("Not Found")
+
+#print entire dictionary
+#print(fish)
+
+# print keys for outer dictionary
+#for i in fish:
+#    print(i)
+
+#print both inner and outer dictionaries
+#for i in fish:
+#    print(i,":",fish[i])
+
+#print keys of the inner dictionaries
+#for i in fish:
+#    for j in fish[i]:
+#        print(j)
+
+#print values of inner dictionaries
+#for i in fish:
+#    for j in fish[i]:
+#        print(j,":",fish[i][j])
 
       
         
