@@ -213,72 +213,58 @@ def program_start():
        if choice1 in inverts:
            for i in inverts[choice1]:
                print(i,":",inverts[choice1][i])
+            
+    elif choice == "4":
+            def Parameters_input():
+                Temperature = input("Enter Water Temperature:")
+                Salinity = input("Enter Salinity Level:")
+                PH_Balance = input("Enter PH Level:")
+                Nitrate = input("Enter Nitrate Level:")
+                Nitrite = input("Enter Nitrite Level:")
+                Ammonia = input("Enter Ammonia Level:")
+                Calcium = input("Enter Calcium Level:")
+                Phosphate = input("Enter Phosphate Level:")
+                Alkalinity = input("Enter Alkalinity Level:")
+                Magnesium = input("Enter Magnesium Level:")
+                Water_Change = input("Enter Yes or No:")
+                return Temperature, Salinity, PH_Balance, Nitrate, Nitrite, Ammonia, Calcium, Phosphate, Alkalinity, Magnesium, Water_Change
 
+            Parameters_input()
+            Parameters = []
+            Parameters.append(Parameters_input())
+            f = open("steve.csv", 'w')
 
+            for item in Parameters:
+                f.write(str(item) + "\n")
+
+    else:
+        print("Invalid Choice")
 
 
 program_start()
 
       
-        
-# Declare variables to be used for water parameters.
-Temperature = input("Enter Water Temperature:")
-Salinity = input("Enter Salinity Level:")
-PH_Balance = input("Enter PH Level:")
-Nitrate = input("Enter Nitrate Level:")
-Nitrite = input("Enter Nitrite Level:")
-Ammonia = input("Enter Ammonia Level:")
-Calcium = input("Enter Calcium Level:")
-Phosphate = input("Enter Phosphate Level:")
-Alkalinity = input("Enter Alkalinity Level:")
-Magnesium = input("Enter Magnesium Level:")
-Water_Change = input("Enter Yes or No")
 
 
 # import the excel writer module
-import xlsxwriter
+#import xlsxwriter
 
 #create workbook that will be used to store and track water parameters.
-workbook = xlsxwriter.Workbook('C:/Users/scary/Documents/Steves_Reef.xls')
+#workbook = xlsxwriter.Workbook('C:/Users/scary/Documents/Steves_Reef.xls')
 #add a new work sheet each time water paramters are stored.
-worksheet = workbook.add_worksheet()
+#worksheet = workbook.add_worksheet()
 
 # specify the starting point for writing in worksheet.
-row = 0
-column = 0
+#row = 0
+#column = 0
 
 #Create list for Water Parameters
-Parameters = ["Temperature", "Salinity", "PH_Balance", "Nitrate", "Nitrite", "Ammonia", "Calcium", "Phosphate",
+#Parameters = ["Temperature", "Salinity", "PH_Balance", "Nitrate", "Nitrite", "Ammonia", "Calcium", "Phosphate",
  "Alkalinity", "Magnesium", "Water_Change"]
 # write each item in parameters to top of spread sheet, moving 1 column to the right each time.
-for item in Parameters :
-    worksheet.write(row,column, item)
-    column += 1
+#for item in Parameters :
+ #  worksheet.write(row,column, item)
+  #  column += 1
 
-workbook.close
+#workbook.close
 
-
-
-# Create function for Water Parameters
-def Parameters_input():
-    Temperature = input("Enter Water Temperature:")
-    Salinity = input("Enter Salinity Level:")
-    PH_Balance = input("Enter PH Level:")
-    Nitrate = input("Enter Nitrate Level:")
-    Nitrite = input("Enter Nitrite Level:")
-    Ammonia = input("Enter Ammonia Level:")
-    Calcium = input("Enter Calcium Level:")
-    Phosphate = input("Enter Phosphate Level:")
-    Alkalinity = input("Enter Alkalinity Level:")
-    Magnesium = input("Enter Magnesium Level:")
-    Water_Change = input("Enter Yes or No:")
-    return Temperature, Salinity, PH_Balance, Nitrate, Nitrite, Ammonia, Calcium, Phosphate, Alkalinity, Magnesium, Water_Change
-# Create empty list that will be used to store user input values for each water parameter.
-Parameters = []
-Parameters.append(Parameters_input())
-
-print(Parameters)
-# Write the Parameters list to csv file.
-f = open("steve.csv", 'w')
-for item in Parameters:
-    f.write(str(item) + "\n")
