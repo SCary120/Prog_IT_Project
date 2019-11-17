@@ -179,33 +179,45 @@ inverts = {
 
 
 
-# conditional statement to print item from dictionary from user input.
-#choice=input("Select a fish:")
-#if choice in fish:
-#    print(choice)
-#else:
-#    print("Not Found")
+def program_start():
 
-#print entire dictionary
-#print(fish)
+    print("Welcome to Steve's Reef Database!  A program designed to view information about different fish, coral and invertebrae."
+      "\nYou can also use this program to log and track your water parameters!. \nWhat would you like to do?\n\nSelect a number: "
+      "1: View Fish, 2: View Coral, 3: View Inverts, 4: Log Water Parameters")
 
-# print keys for outer dictionary
-#for i in fish:
-#    print(i)
+    choice = input()
 
-#print both inner and outer dictionaries
-#for i in fish:
-#    print(i,":",fish[i])
+    if choice == "1":
+        for i in fish:
+            print(i)
+        print("\nWhich fish would you like to view?")
+        choice1 = input()
+        if choice1 in fish:
+            for i in fish[choice1]:
+                print(i,":",fish[choice1][i])
 
-#print keys of the inner dictionaries
-#for i in fish:
-#    for j in fish[i]:
-#        print(j)
+    elif choice == "2":
+       for i in coral:
+          print(i)
+       print("\nWhich coral would you like to view?")
+       choice1 = input()
+       if choice1 in coral:
+           for i in coral[choice1]:
+               print(i,":",coral[choice1][i])
 
-#print values of inner dictionaries
-#for i in fish:
-#    for j in fish[i]:
-#        print(j,":",fish[i][j])
+    elif choice == "3":
+       for i in inverts:
+           print(i)
+       print("\nWhich invertebrae would you like to view?")
+       choice1 = input()
+       if choice1 in inverts:
+           for i in inverts[choice1]:
+               print(i,":",inverts[choice1][i])
+
+
+
+
+program_start()
 
       
         
