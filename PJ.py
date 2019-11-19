@@ -251,28 +251,12 @@ def program_start():
 # call the function to start the program.
 program_start()
 
-      
+# function to read csv file containing water parameters.     
+def read_reef():
 
+    reef = csv.reader(open("steve.csv", newline=''))
+    for row in reef:
+        print('{:<12} {:<10} {:<12} {:<10} {:<8} {:<8} {:<10} {:<10} {:<12} {:<10} {:<16} {:<10}'.format(*row))
 
-# import the excel writer module
-#import xlsxwriter
-
-#create workbook that will be used to store and track water parameters.
-#workbook = xlsxwriter.Workbook('C:/Users/scary/Documents/Steves_Reef.xls')
-#add a new work sheet each time water paramters are stored.
-#worksheet = workbook.add_worksheet()
-
-# specify the starting point for writing in worksheet.
-#row = 0
-#column = 0
-
-#Create list for Water Parameters
-#Parameters = ["Temperature", "Salinity", "PH_Balance", "Nitrate", "Nitrite", "Ammonia", "Calcium", "Phosphate",
- "Alkalinity", "Magnesium", "Water_Change"]
-# write each item in parameters to top of spread sheet, moving 1 column to the right each time.
-#for item in Parameters :
- #  worksheet.write(row,column, item)
-  #  column += 1
-
-#workbook.close
-
+# call the function to read the csv file.
+read_reef()
