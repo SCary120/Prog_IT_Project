@@ -177,17 +177,20 @@ inverts = {
 # Dictionary of Scallops.
 "Scallops":{"1":"Electric Flame"}}
 
-
-
+# import csv module to read and write to csv.
+import csv
 # import datetime module so I can add date to CSV file for water parameters.
 import datetime
+#import termcolor to manipulate color of text.
+from termcolor import colored, cprint
 
 # function that will execute my program.
 def program_start():
     # Welcome message that will explain options to the user.
-    print("Welcome to Steve's Reef Database!  A program designed to view information about different fish, coral and invertebrae."
-      "\nYou can also use this program to log and track your water parameters!. \nWhat would you like to do?\n\nSelect a number: "
-      "1: View Fish, 2: View Coral, 3: View Inverts, 4: Log Water Parameters")
+    print(colored("Welcome to Steve's Reef Database!  A program designed to view information about different fish, coral and invertebrae."
+      "\nYou can also use this program to log and track your water parameters! \nWhat would you like to do?\n\nSelect a number: ",'blue'))
+
+    print(colored("1: View Fish, 2: View Coral, 3: View Inverts, 4: Log Water Parameters", 'yellow'))
     # Variable that will be used in If/Elif loops below.  Stores user input, executes program based on selection.
     choice = input()
     # If user choice is to view fish, execute for loop below.
@@ -198,7 +201,12 @@ def program_start():
         choice1 = input()
         if choice1 in fish:
             for i in fish[choice1]:
-                print(i,":",fish[choice1][i])
+                print(i)
+            print("\nWhich "+ choice1 + " would you like to view?")
+        choice2 = input()
+        if choice2 in fish[choice1]:
+            for i in fish[choice1][choice2]:
+                print(i,":",fish[choice1][choice2][i])
     # If user choice is to view coral, execute for loop below.
     elif choice == "2":
        for i in coral:
@@ -207,7 +215,12 @@ def program_start():
        choice1 = input()
        if choice1 in coral:
            for i in coral[choice1]:
-               print(i,":",coral[choice1][i])
+               print(i)
+           print("\nWhich "+ choice1 + " would you like to view?")
+       choice2 = input()
+       if choice2 in coral[choice1]:
+            for i in coral[choice1][choice2]:
+                print(i,":",coral[choice1][choice2][i])
     # If user choice is to view inverts, execute for loop below.
     elif choice == "3":
        for i in inverts:
@@ -216,36 +229,12 @@ def program_start():
        choice1 = input()
        if choice1 in inverts:
            for i in inverts[choice1]:
-               print(i,":",inverts[choice1][i])
-    # If user choice is to log water parameters, execute for loop below.
-    elif choice == "4":
-            def Parameters_input():
-                Temperature = input("Enter Water Temperature:")
-                Salinity = input("Enter Salinity Level:")
-                PH_Balance = input("Enter PH Level:")
-                Nitrate = input("Enter Nitrate Level:")
-                Nitrite = input("Enter Nitrite Level:")
-                Ammonia = input("Enter Ammonia Level:")
-                Calcium = input("Enter Calcium Level:")
-                Phosphate = input("Enter Phosphate Level:")
-                Alkalinity = input("Enter Alkalinity Level:")
-                Magnesium = input("Enter Magnesium Level:")
-                Water_Change = input("Was the water changed? Enter Yes or No:")
-                Date = datetime.date.today()
-                return Temperature, Salinity, PH_Balance, Nitrate, Nitrite, Ammonia, Calcium, Phosphate, Alkalinity, Magnesium, Water_Change, str(Date)
-            # call parameters_input function, and store values in empty list called Parameters
-            Parameters_input()
-            Parameters = []
-            Parameters.append(Parameters_input())
-            # open the csv file, and set permission to append to the file.
-            f = open("steve.csv", 'a')
-
-            # for loop that will write values from paramaters list to csv file.
-            for item in Parameters:
-                f.write(str(item) + "\n")
-    # If user enters something other than 1,2,3 or 4 print "Invalid Choice"
-    else:
-        print("Invalid Choice")
+               print(i)
+           print("\nWhich "+ choice1 + " would you like to view?")
+       choice2 = input()
+       if choice2 in inverts[choice1]:
+            for i in inverts[choice1][choice2]:
+                print(i,":",inverts[choice1][choice2][i])
 
 
 # call the function to start the program.
