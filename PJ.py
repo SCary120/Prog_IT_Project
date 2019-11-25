@@ -168,30 +168,30 @@ fish = {
 # Nested Dictionary for Coral.
 coral = {
 # Dictionary of LPS coral.
-"LPS":{"1":"Lobophyllia sp.","2":"Homophyllia australis","3":"Acanthophyllia desshayesiana","4":"Plesiastrea versipora","5":"Trachyphyllia geoffroyi",
-"6":"Favia sp","7":"Plerogyra sinuosa","8":"Favia speciosa","9":"Favites spp.","10":"Lobophyllia hemprichii","11":"Platygyra sp.",
-"12":"Acanthastrea echinata","13":"Micromussa lordhowensis","14":"Goniastrea sp.","15":"Fungia repanda","16":"Fungia sp","17":"Blastomussa merletti",
-"18":"Catalaphyllia jardinei","19":"Caulastrea furcata","20":"Echinophyllia sp.","21":"Echinophyllia aspera","22":"Duncanopsammia axifuga",
-"23":"Euphyllia ancora","24":"Euphyllia glabrescens","25":"Euphyllia divisa","26":"Cynarina lacrymalis","27":"Parascolymia vitiensis",
-"28":"Gonipora sp.","29":"Galaxea spp.","30":"Balanophyllia sp.","31":"Favites pentagona","32":"Merulina ampliata","33":"Physogyra sp.",
-"34":"Tubastrea micrantha","35":"Turbina sp.","36":"Euphyllia cristata","37":"Homophyllia bowerbanki","38":"Euphyllia parancora",
-"39":"Turbinaria peltata","40":"Blastomussa wellsi","41":"Polyphyllia sp.","42":"Caulastrea echinulata","43":"Tubastrea sp.","44":"Tubastrea aurea",
-"45":"Euphyllia yaeyamaensis","46":"Diploastrea heliopora","47":"Trachyphyllia radiata","48":"Mycedium sp.","49":"Caulastrea curvata",
-"50":"Pectinia sp.","51":"Heliofungia actinifomis","52":"Turbinaria sp.","53":"Alveopora sp."},
+"LPS":{"Lobophyllia sp.":{}, "Homophyllia australis":{}, "Acanthophyllia desshayesiana":{}, "Plesiastrea versipora":{}, "Trachyphyllia geoffroyi":{},
+"Favia sp":{}, "Plerogyra sinuosa":{}, "Favia speciosa":{}, "Favites spp.":{}, "Lobophyllia hemprichii":{}, "Platygyra sp.":{}, "Acanthastrea echinata":{},
+"Micromussa lordhowensis":{}, "Goniastrea sp.":{}, "Fungia repanda":{}, "Fungia sp":{}, "Blastomussa merletti":{}, "Catalaphyllia jardinei":{}, "Caulastrea furcata":{},
+"Echinophyllia sp.":{}, "Echinophyllia aspera":{}, "Duncanopsammia axifuga":{}, "Euphyllia ancora":{}, "Euphyllia glabrescens":{}, "Euphyllia divisa":{}, "Cynarina lacrymalis":{},
+"Parascolymia vitiensis":{}, "Gonipora sp.":{},"Galaxea spp.":{}, "Balanophyllia sp.":{}, "Favites pentagona":{}, "Merulina ampliata":{}, "Physogyra sp.":{},
+"Tubastrea micrantha":{}, "Turbina sp.":{}, "Euphyllia cristata":{}, "Homophyllia bowerbanki":{}, "Euphyllia parancora":{}, "Turbinaria peltata":{}, "Blastomussa wellsi":{},
+"Polyphyllia sp.":{}, "Caulastrea echinulata":{}, "Tubastrea sp.":{}, "Tubastrea aurea":{}, "Euphyllia yaeyamaensis":{}, "Diploastrea heliopora":{}, "Trachyphyllia radiata":{},
+"Mycedium sp.":{}, "Caulastrea curvata":{}, "Pectinia sp.":{}, "Heliofungia actinifomis" :{}, "Turbinaria sp.":{}, "Alveopora sp.":{}},
 # Dictionary of SPS coral.
-"SPS":{"1":"Acropora sp.","2":"Montipora nodosa","3":"Pavona maldivensis","4":"Montipora verrucosa","5":"Seriatopra hystrix","6":"Porites spp.",
-"7":"Stylophora spp.","8":"Pocillopora damicornis","9":"Acropora millepora","10":"Heliopora coerulea","11":"Hydophora sp.","12":"Hydnophora exesa",
-"13":"Montipora digitata","14":"Montipora capricornis","15":"Pavona decussatus","16":"Pachyseris sp."},
+"SPS":{"Acropora sp.":{}, "Montipora nodosa":{}, "Pavona maldivensis":{}, "Montipora verrucosa":{}, "Seriatopra hystrix":{}, "Porites spp.":{},
+"Stylophora spp.":{}, "Pocillopora damicornis":{}, "Acropora millepora":{}, "Heliopora coerulea":{}, "Hydophora sp.":{}, "Hydnophora exesa":{},
+"Montipora digitata":{}, "Montipora capricornis":{}, "Pavona decussatus":{}, "Pachyseris sp.":{}},
 # Dictionary of Soft coral
-"Soft":{"1":"Sinularia sp.","2":"Sarcophyton sp.","3":"Lobophytum sp.","4":"Rhodactis sp.","5":"Tubipora musica","6":"Sympodium sp.",
-"7":"Sarcophyton sp.","8":"Sarcophyton elegans","9":"Capnella sp.","10":"Paralemnalia sp.","11":"Sinularia brassica","12":"Sinularia flexibilis",
-"13":"Sphaerella sp.","14":"Heliopora coerulea","15":"Stereonephthya sp.","16":"Nephthyigorgia sp.","17":"Dendronephthya sp.","18":"Clavularia sp.",
-"19":"Briareum sp.","20":"Xenia sp.","21":"Knopia sp.","22":"Litophyton sp."},
+"Soft":{"Sinularia sp.":{}, "Sarcophyton sp.":{}, "Lobophytum sp.":{}, "Rhodactis sp.":{}, "Tubipora musica":{}, "Sympodium sp.":{},
+"Sarcophyton elegans":{}, "Capnella sp.":{}, "Paralemnalia sp.":{}, "Sinularia brassica":{}, "Sinularia flexibilis":{},
+"Sphaerella sp.":{}, "Heliopora coerulea":{}, "Stereonephthya sp.":{}, "Nephthyigorgia sp.":{}, "Dendronephthya sp.":{}, "Clavularia sp.":{},
+"Briareum sp.":{}, "Xenia sp.":{}, "Knopia sp.":{}, "Litophyton sp.":{}},
 # Dictionary of mushroom coral.
-"Mushrooms":{"1":"Actinodiscus sp.","2":"Rhodactis inchoata","3":"Rhodactis sp.","4":"Rhodactis indosinensis","5":"Ricordea yuma"},
+"Mushrooms":{"Actinodiscus sp.":{}, "Rhodactis inchoata":{}, "Rhodactis sp.":{}, "Rhodactis indosinensis":{}, "Ricordea yuma":{}},
 # Dictionary of Polyp coral
-"Polyp":{"1":"Zoanthus sp.","2":"Tubipora musica","3":"Sympodium sp.","4":"Undescribed Zoanthid","5":"Xenia sp.","6":"Knopia sp.","7":"Clavularia sp.",
-"8":"Briareum sp."},}
+"Polyp":{"Zoanthus sp.":{}, "Tubipora musica":{}, "Sympodium sp.":{}, "Undescribed Zoanthid":{}, "Xenia sp.":{}, "Knopia sp.":{}, "Clavularia sp.":{},
+"Briareum sp.":{}}}
+
+
 # Nested Dictionary for inverts.
 inverts = {
 # Dictionary of Anemones.
