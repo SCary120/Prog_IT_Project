@@ -191,52 +191,48 @@ coral = {
 "Polyp":{"Zoanthus sp.":{}, "Tubipora musica":{}, "Sympodium sp.":{}, "Undescribed Zoanthid":{}, "Xenia sp.":{}, "Knopia sp.":{}, "Clavularia sp.":{},
 "Briareum sp.":{}}}
 
-
-# Nested Dictionary for inverts.
+# Nested dictionaries of Inverts
 inverts = {
 # Dictionary of Anemones.
-"Anemones":{"1":"Bulb","2":"Long Tentacle","3":"Ritteri","4":"Sebae","5":"Haddons Green Carpet","6":"Condy","7":"Haitian Reef","8":"Tube",
-"9":"Long Purple Tentacle","10":"True Tan Carpet","11":"Mini Carpet","12":"Rose Bulb"},
+"Anemones":{"Bulb":{}, "Long Tentacle":{}, "Ritteri":{}, "Sebae":{}, "Haddons Green Carpet":{}, "Condy":{}, "Haitian Reef":{}, "Tube":{}, 
+"Long Purple Tentacle":{}, "True Tan Carpet":{}, "Mini Carpet":{}, "Rose Bulb":{}},
 # Dictionary of Crabs.
-"Crabs":{"1":"Dwarf Red Tip Hermit","2":"Dwarf Blue Leg Hermit","3":"Scarlet Reef Hermit","4":"Dwarf Yellow Tip Hermit",
-"5":"Dwarf Zebra/Orange & Black Hermit","6":"Emerald","7":"Arrow","8":"Decorator Arrow","9":"Panamic","10":"Electric Blue Hermit",
-"11":"Electric Orange Hermit","12":"Halloween Hermit","13":"Hermit w/ Anemone","14":"Pom Pom","15":"Sally Lightfoot","16":"Spider Decorator",
-"17":"Trapezia Acropora","18":"Staghorn"},
+"Crabs":{"Dwarf Red Tip Hermit":{}, "Dwarf Blue Leg Hermit":{}, "Scarlet Reef Hermit":{}, "Dwarf Yellow Tip Hermit":{}, "Dwarf Zebra/Orange & Black Hermit":{}, 
+"Emerald":{}, "Arrow":{}, "Decorator Arrow":{}, "Panamic":{}, "Electric Blue Hermit":{}, "Electric Orange Hermit":{}, "Halloween Hermit":{}, 
+"Hermit w/ Anemone":{}, "Pom Pom":{}, "Sally Lightfoot":{}, "Spider Decorator":{}, "Trapezia Acropora":{}, "Staghorn":{}},
 # Dictionary of Sea Cucumbers.
-"Cucumbers":{"1":"Sea Tiger Tail","2":"Sea","3":"Sea Yellow","4":"Spiny Green w/Pink & Yellow"},
+"Cucumbers":{"Sea Tiger Tail":{}, "Sea":{}, "Sea Yellow":{}, "Spiny Green w/Pink & Yellow":{}},
 # Dictionary of Fan Worms.
-"Fan Worms":{"1":"Hawaiian Feather Duster","2":"Dwarf Colored Feather Duster","3":"Feather Duster","4":"Hard Tube Coco","5":"Christams Tree on Rock"},
+"Fan Worms":{"Hawaiian Feather Duster":{}, "Dwarf Colored Feather Duster":{}, "Feather Duster":{}, "Hard Tube Coco":{}, "Christams Tree on Rock":{}},
 # Dictionary of Lobsters.
-"Lobsters":{"1":"Daums Reef","2":"Debelius Reef"},
+"Lobsters":{"Daums Reef":{}, "Debelius Reef":{}},
 # Dictionary of Shrimp.
-"Shrimp":{"1":"Scarlet Skunk Cleaner","2":"Peppermint","3":"Blood Red Fire","4":"Sexy Anemone","5":"Banded Coral","6":"Camel","7":"Curly-Que",
-"8":"Yellow Banded Coral","9":"Saron","10":"White Spot Anemone","11":"Harlequin","12":"Blue Banded Coral","13":"Bumble Bee",
-"14":"Red Banded Snapping","15":"Gold Banded Coral","16":"Pederson Cleaner","17":"Venus Anemone","18":"Yellow Line"},
+"Shrimp":{"Scarlet Skunk Cleaner":{}, "Peppermint":{}, "Blood Red Fire":{}, "Sexy Anemone":{}, "Banded Coral":{}, "Camel":{}, "Curly-Que":{}, 
+"Yellow Banded Coral":{}, "Saron":{}, "White Spot Anemone":{}, "Harlequin":{}, "Blue Banded Coral":{}, "Bumble Bee":{}, "Red Banded Snapping":{}, 
+"Gold Banded Coral":{}, "Pederson Cleaner":{}, "Venus Anemone":{}, "Yellow Line":{}},
 # Dictionary of Sea Stars.
-"Sea Stars":{"1":"Burgundy Sea","2":"Red Sea","3":"Orange/Red Tile Sea","4":"Indian Sea","5":"Fancy Yellow Brittle Sea",
-"6":"Red Brittle Sea","7":"Fancy Brittle Sea","8":"Banded Brittle Sea","9":"Fancy Tiger Striped Serpent Sea","10":"Fancy Banded Serpent Sea",
-"11":"Fancy Red Brittle Sea","12":"Knobby Fancy Brittle Sea","13":"Red Knob Sea","14":"Chocolate Chip Sea","15":"Linckia Sea","16":"Sand Sifting Sea"},
+"Sea Stars":{"Burgundy Sea":{}, "Red Sea":{}, "Orange/Red Tile Sea":{}, "Indian Sea":{}, "Fancy Yellow Brittle Sea":{},
+"Red Brittle Sea":{}, "Fancy Brittle Sea":{}, "Banded Brittle Sea":{}, "Fancy Tiger Striped Serpent Sea":{}, "Fancy Banded Serpent Sea":{}, 
+"Fancy Red Brittle Sea":{}, "Knobby Fancy Brittle Sea":{}, "Red Knob Sea":{}, "Chocolate Chip Sea":{}, "Linckia Sea":{}, "Sand Sifting Sea":{}},
 # Dictionary of Sea Slugs.
-"Sea Slugs":{"1":"Blue Velvet Nudibranch","2":"Green Lettus Sea","3":"Sea Hare"},
+"Sea Slugs":{"Blue Velvet Nudibranch":{}, "Green Lettus Sea":{}, "Sea Hare":{}},
 # Dictionary of Snails.
-"Snails":{"1":"Astaea Turbo","2":"Banded Trochus","3":"Cerith","4":"Margarita","5":"Super Tongan Nassarius","6":"Zebra Turbo","7":"Abalone",
-"8":"Bumble Bee","9":"Nerite","10":"Spiny Star Astraea","11":"Tiger Cowrie","12":"Fighting Conch","13":"Mexican Turbo","14":"Nassarius",
-"15":"Turban","16":"Chestnut Turbo","17":"Chestnut Cowrie"},
+"Snails":{"Astaea Turbo":{}, "Banded Trochus":{}, "Cerith":{}, "Margarita":{}, "Super Tongan Nassarius":{}, "Zebra Turbo":{}, "Abalone":{}, "Bumble Bee":{},
+"Nerite":{}, "Spiny Star Astraea":{}, "Tiger Cowrie":{}, "Fighting Conch":{}, "Mexican Turbo":{}, "Nassarius":{}, "Turban":{}, "Chestnut Turbo":{}, "Chestnut Cowrie":{}},
 # Dictionary of Urchins.
-"Urchins":{"1":"Blue Tuxedo","2":"Pincushion","3":"Black Longspine","4":"Hairy Pincushion","5":"Pencil","6":"Banded Longspine",
-"7":"Blue Spot Longspine","8":"Purple Shortspine Pincushion","9":"Red Tuxedo","10":"Shortspine"},
+"Urchins":{"Blue Tuxedo":{}, "Pincushion":{}, "Black Longspine":{}, "Hairy Pincushion":{}, "Pencil":{}, "Banded Longspine":{}, "Blue Spot Longspine":{}, 
+"Purple Shortspine Pincushion":{}, "Red Tuxedo":{}, "Shortspine":{}},
 # Dictionary of Sponges.
-"Sponges":{"1":"Red Ball","2":"Tree","3":"Yellow Ball"},
+"Sponges":{"Red Ball":{}, "Tree":{}, "Yellow Ball":{}},
 # Dictionary of Clams.
-"Clams":{"1":"Maxima","2":"Maxima Ultra","3":"Striped with Blue Rim Derasa","4":"Gold Maxima","5":"Blue/Turquoise Maxima","6":"Crocea",
-"7":"Blue Squamosa"},
+"Clams":{"Maxima":{}, "Maxima Ultra":{}, "Striped with Blue Rim Derasa":{}, "Gold Maxima":{}, "Blue/Turquoise Maxima":{}, "Crocea":{}, "Blue Squamosa":{}},
 # Dictionary of Cephalopods.
-"Cephalopods":{"1":"Atlantic Pygmy Octopus","2":"Octopus-Assorted"},
+"Cephalopods":{"Atlantic Pygmy Octopus":{}, "Octopus-Assorted":{}},
 # Dictionary of Plants & Macro Algae.
-"Plants & Algae":{"1":"Red Mangrove","2":"Red Gracilaria Feeding","3":"Dragons Tongue","4":"Shaving Brush","5":"Mermaids Fan","6":"Halimeda",
-"7":"Green Finger","8":"Chaeto","10":"Caulerpa"},
+"Plants & Algae":{"Red Mangrove":{}, "Red Gracilaria Feeding":{}, "Dragons Tongue":{}, "Shaving Brush":{}, "Mermaids Fan":{}, "Halimeda":{}, 
+"Green Finger":{}, "Chaeto":{}, "Caulerpa":{}},
 # Dictionary of Scallops.
-"Scallops":{"1":"Electric Flame"}}
+"Scallops":{"Electric Flame":{}}}
 
 # import csv module to read and write to csv.
 import csv
