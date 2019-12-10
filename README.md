@@ -16,10 +16,11 @@ Yes/No choices must be entered as Yes or No.
 
 Modules required for proper operation
 -------------------------------------
-time
-datetime
+time,
+datetime,
+csv,
 colored from termcolor library
-csv
+
 
 References
 --------------------
