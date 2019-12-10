@@ -1,0 +1,91 @@
+ Steve Cary
+
+Created By Steven Cary on Monday, September 16, 2019 7:34:18 PM EDT
+
+last modified by Steven Cary on Tuesday, December 3, 2019 2:45:18 PM EST
+
+Draft 1
+
+I would like to create an old style juke box that plays music. There will be a series of buttons A-J and 0-9 for example. The user can flip through a track listing that will display by pages. A song can be played by selecting the appropriate letter and number combination. Would also like to include feature that allows the user to sort the songs by Artist or Genre, maybe other categories. Possible ideas, volume buttons
+
+
+Draft 2
+
+New project idea:
+
+For my project I will create a program that allows me to log and track the water parameters for my saltwater fish tank. Parameters to be tracked will include,Temperature, Salinity, Ph balance, Ammonia, Nitrite, Nitrate, Phosphates, Calcium, and Magnesium.  I will also track water changes, filter sock changes, and growth/removal of chaetomorpha macro algae.  Information will be logged into a spreadsheet.  Ideally warnings, or notifications will be added if a parameter is out of range, with suggestions on how to correct it.  Suggestions would be water change, dose 2ml of calcium per day etc....
+
+The program will also include a database for different species of saltwater fish and corals, which details the ideal water parameters for each species.  This database will be used to help identify parameters that are out of range.
+
+
+Goals:  Search able database by date, species, and type of coral. Water parameters and results will be logged into a spreadsheet.
+
+Stretch goals: Add ability to search by water parameter, temperament and other values stored for each fish/coral/invert.
+
+Super stretch goals: Add calculator to determine appropriate water flow based on dimensions of tank. User will enter dimensions. Add compatibility chart for fish and corals.
+
+Draft 3 project proposal
+
+GitHub Username: https://github.com/SCary120
+
+Scope: What is and isn't included 
+
+Weekly Planned Due Dates: (what is due when for your project)
+
+Sept 28 : Complete building inverts dictionary, and be able to print complete sorted lists.
+
+Oct 5 : Complete building fish dictionary, and be able to print complete sorted lists.
+
+Oct12: Complete building coral dictionary, and be able to print complete sorted lists.
+
+Oct 19: Add parameters for each key.value in dictionaries.
+
+Oct 26  formalize loops for searching through fish database.based on user inputs.
+
+Nov 2 Create variables to store user inputs for water parameters.
+
+Nov 9 : Build loop to enter water parameters into spreadsheet.
+
+Nov 16:Add color coding to spreadsheet for parameters out of range.
+
+Nov 23:Add tips to correct out of range water parameters.
+
+Nov 30:  Add calculators for sand bed if time allows.
+
+Dec 8   Turn in final project
+
+Milestones
+
+Milestone 1: Complete data base and print list based on user input.
+
+Milestone 2: Successfully write water parameters to excel spreadsheet.
+
+Milestone 3: Fully functioning data bases, and water parameter tracking.
+
+Milestone 4:  Milestone 3 + functioning sandbed calculator, possible water flow calculator.
+
+
+End of First Month Check In:
+
+So far this month I have finalized the idea for my final project.  I have created a Github account that contains my master code which so far contains the start of the dictionaries that will be used to create my fish database.  I have also been working on a flow chart to help me organize how I plan to tackle the coding, but that still needs to have some things added to be complete.  While the master code is on Github I continue to code in pycharm, and in text file for ease because I find it a bit cleaner to work in.
+
+I still need to complete building the databases, and add the water parameter values for each item in the dictionary.  I hope to complete that in the coming weeks.  From there I will work on my if statements to guide the user through the program and choose what they want to do.
+
+
+End of 2nd Month Check In:
+
+I have completed building the dictionaries for my fish, but I still have to add the parameters for each.  I haven't added them yet because I am undecided on if I will create a variable for each fish, or for each species.  I will need to research each one a bit more to see how close the parameters for each fish in each species are.  I am still struggling a bit to print my dictionary items/values based strictly on user input.  I have had no trouble getting the lists to print, without user input but my goal is for this to be an interactive program.  I also do not want to iterate through the entire list when I am only interested in viewing a specific kind.
+
+Because of the struggles I have had printing my lists I jumped ahead a little for my weekly goals and began writing the loop to write my data to an excel spread sheet. Currently, the loop prints the header information to a spreadsheet in the top row/column.  I will continue to build off of this loop so user input for each variable is added.  As my script stands now, I have imported the xlsxwriter module, although I might need to rethink this, as I have read there are some limitations to using this module that might prevent me from reading or writing to existing files.  My loop should not be terribly different though, and the main thing is I understand how the excel spreadsheet is indexed within the code.
+
+I also finally figured out how to add the license to my project page in github. We struggled to figure this out because I had not added one when initially creating my page.
+
+
+End of 3rd Month Check In:
+
+
+After several rebuilds all of my dictionaries are now complete.  I have 3 sets of nested dictionaries for Fish, Coral, and Inverts.  I am able to print the dictionaries based entirely on user input.  I have added a restart function to start the program over if invalid input is given.  I am thinking about adding another restart function to take the user one step back in the loop so they have the option to view a different species.
+
+I created another function to take user input for the water parameters and write it to a csv file.  I am then able to print the csv file in a clean format.  The entries are dated so the user is able to see what their parameters were at a given time or how they have changed over time.  I want to generate warnings if certain parameters are out of range, and color code that output.  So that is what I am working on currently.  I imported a termcolor module so that I can print colored text, I am able to print specific rows, I just need to have it change the color of the value if out of range.
+
+Aside from that, I need to clean up my flowchart, readme, and the project will be done.  I have hit all of my main goals so far, but will likely scrap some of my stretch goals for a calulator and the chaeto growth.
