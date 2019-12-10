@@ -1,16 +1,25 @@
-# Prog_IT_Project
+Prog_IT_Project
+--------------------
 Steve's Reef_Tank_program
 Created for Programming in IT class at Northern Essex Community College.
 Fall Semester 2019
 
-Summary:
+Summary
+--------------------
 This program is designed to serve as a fish database, and data entry tool to log and track your water parameters in a marine aquarium.
 
-Usage:
+Usage
+--------------------
 Simply follow the prompts to search the database, enter water parameters or view previous logs.
 Spelling is case sensitive, and must be exact to avoid invalid input error.
 Yes/No choices must be entered as Yes or No.
 
+Modules required for proper operation
+-------------------------------------
+time
+datetime
+colored from termcolor library
+csv
 
 References
 --------------------
